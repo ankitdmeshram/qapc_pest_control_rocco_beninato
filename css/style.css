@@ -1,0 +1,336 @@
+* {
+  scroll-behavior: smooth;
+}
+.gs-header .gs-top-nav {
+  background-color: #313041;
+  color: white;
+  font-size: 16px;
+  padding: 7px 1px 1px 1px;
+}
+.gs-header .gs-top-nav p {
+  margin-bottom: 0.3em;
+  text-align: right;
+}
+.gs-header .gs-top-nav p a {
+  text-decoration: none;
+  color: white !important;
+}
+@media (max-width: 992px) {
+  .gs-hide {
+    display: none;
+    float: right;
+  }
+}
+.gs-nav li {
+  padding: 10px;
+}
+.gs-nav li a {
+  color: black !important;
+  font-size: 18px;
+  text-decoration: none;
+}
+.gs-hero {
+  background: rgba(0, 0, 0, 0.5);
+}
+.gs-hero .gs-hero-box {
+  padding: 240px 10px;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/slider-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gs-hero .gs-hero-box h1 {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 80px;
+}
+.gs-hero .gs-hero-box p {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.gs-btn {
+  color: white;
+  background: #fd6e2f;
+  padding: 4px 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gs-btn:hover 
+{
+  color: white;
+  text-transform: none;
+  background: #ff4d00;
+}
+@media (max-width: 992px) {
+  .gs-hero .gs-hero-box {
+    padding: 150px 10px;
+    height: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .gs-hero .gs-hero-box {
+    padding: 100px 10px;
+  }
+  .gs-hero .gs-hero-box h1 {
+    font-size: 30px;
+  }
+  .gs-hero .gs-hero-box p {
+    font-size: 15px;
+  }
+  .gs-hero .gs-hero-box .gs-btn {
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+
+
+.two 
+{
+  padding: 50px 10px;
+}
+.two h4 
+{
+  color: #fd6e2f;
+  font-weight: 700;
+}
+.two h2 
+{
+  font-weight: 800;
+}
+.two p 
+{
+  font-size: 18px;
+}
+
+
+
+
+
+.two .gs-form 
+{
+  border-radius: 15px ;
+}
+.two .gs-form form
+{
+  padding :25px;
+}
+.two h3 
+{
+  background: #fd6e2f;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.three 
+{
+  background-color: rgba(0, 0, 0, 0.014);
+  padding: 50px 10px;
+}
+.three h1 
+{
+  font-weight: 700;
+}
+.three .dest-box 
+{
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px)
+{
+  .three .dest-box 
+{
+  margin: 10px 0px;
+}
+.three h1 
+{
+  font-size: 30px;
+}
+.three h5 
+{
+  font-size: 15px;
+}
+
+}
+
+.three .dest-box .gs-dest-box
+{
+  width: 100%;
+}
+.three .dest-box .dest-box-content
+{
+  padding: 15px;
+}
+.three .dest-box .dest-box-content h5
+{
+  font-size: 20px;
+  font-weight: 700;
+}
+.three .dest-box .dest-box-content  .gs-dest-left 
+{
+  font-weight: 700;
+}
+.three .dest-box .dest-box-content  .gs-dest-right 
+{
+  float: right;
+}
+
+
+
+.four 
+{
+  padding: 50px 10px;
+}
+.four .box 
+{
+  padding: 30px 10px;
+  margin: 10px 0px 10px 0px
+}
+.four .box p 
+{
+  padding: 15px 30px 10px 30px;
+}
+
+.four .gs-img 
+{
+  width: 75px;
+  border-radius: 150px;
+}
+.four h1
+{
+  font-weight: 700;
+}
+
+
+
+footer 
+{
+  background: #313041;
+  color: white;
+  padding: 50px 10px;
+}
+
+footer .gs-logo
+{
+  width: 100px;
+}
+
+footer .social-icon img
+{
+  width: 40px;
+  margin: 2px;
+}
+
+footer h4 
+{
+  color: white;
+}
+footer ul 
+{
+  padding-inline-start: 0px;
+}
+footer ul li 
+{
+  list-style-type: none;
+  padding: 5px;
+}
+footer ul li a
+{
+  color: white;
+}
+footer ul li a:hover
+{
+  text-decoration: none;
+  color: white;
+}
+footer .fot-gal 
+{
+  border-radius: 10px;
+  /* padding: 10px; */
+  margin-top: 10px;
+} 
+footer .gallery .col-4
+{
+  padding: 0;
+}
+
+footer .ico 
+{
+  width: 20px;
+}
+
+.gs-pl-4 
+{
+  padding-left: 50px;;
+}
+@media (max-width: 600px)
+{
+  .gs-pl-4, footer .gallery .col-4
+  
+  {
+    padding-left: 20px;;
+  } 
+  .gs-pl-4
+  {
+    padding-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcumb 
+{
+  padding: 100px 10px;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+.breadcumb h1 
+{
+  font-weight: 900;
+}
+.breadcumb h5 
+{
+  font-weight: 700;
+}
+.breadcumb img 
+{
+  width: 15px;
+}
+
+
+.tour-details 
+{
+  padding: 75px;
+}
+.gs-tour-img 
+{
+  width: 100%;;
+}
+.tour-details .gs-tour-box
+{
+  padding: 10px;
+}
