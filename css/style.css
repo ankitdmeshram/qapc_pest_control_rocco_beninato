@@ -268,35 +268,114 @@ footer .ico {
   }
 }
 
+
+
+
+
 .breadcumb {
-  padding: 100px 10px;
-  background-color: rgba(61, 61, 61, 0.068);
+  padding: 150px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .breadcumb h1 {
   font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
 }
 .breadcumb h5 {
   font-weight: 700;
+  color: white;
+  font-size: 1.5rem;
 }
 .breadcumb img {
   width: 15px;
 }
 
-.tour-details {
-  padding: 75px;
+
+
+.service-area 
+{
+  padding: 50px 125px;
 }
-.gs-tour-img {
-  width: 100%;
+
+@media (max-width: 1200px) {
+  .service-area 
+  {
+    padding: 50px 75px;
+  }
+
+    
 }
-.tour-details .gs-tour-box {
+
+@media (max-width: 600px) {
+  .service-area 
+  {
+    padding: 50px 25px;
+  }
+  .breadcumb
+  {
+    padding: 75px 10px
+  }
+  .breadcumb h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: white;
+  }
+    
+}
+.service-area h1 
+{
+  font-weight: 600;
+}
+
+.service-area p 
+{
+  font-size: 1.2rem;
+}
+
+
+.side-link
+{
+  margin-top: 40px;
   padding: 10px;
 }
-
-.serv-box {
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.267);
+.side-link ul 
+{
+  padding-inline-start: 0px;
+  padding: 1px 10px;
+}
+.side-link ul li 
+{
+  padding: 8px 5px;
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+.side-link ul li a 
+{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
-.gs-ser-img {
-  width: 100%;
+
+
+
+
+.cta 
+{
+  padding: 70px 10px;
+  text-align: center;
+  background-color: rgba(88, 59, 0, 0.055);
+}
+.cta h1 
+{
+  /* font-size: 2.5rem; */
+  font-weight: 700;
+
+}
+.cta h5 
+{
+  font-weight: 500;
 }
