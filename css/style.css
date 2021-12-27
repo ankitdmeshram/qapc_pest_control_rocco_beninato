@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro");
+
 * {
   scroll-behavior: smooth;
+  font-family: "Crimson Pro", serif;
 }
 .gs-header .gs-top-nav {
   background-color: #313041;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   padding: 7px 1px 1px 1px;
 }
 .gs-header .gs-top-nav p {
@@ -26,7 +29,8 @@
 }
 .gs-nav li a {
   color: black !important;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: 900 !important;
   text-decoration: none;
 }
 .gs-hero {
@@ -49,8 +53,12 @@
 }
 .gs-hero .gs-hero-box p {
   color: white;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  /* text-align: center; */
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .gs-btn {
@@ -60,8 +68,7 @@
   font-size: 20px;
   font-weight: 700;
 }
-.gs-btn:hover 
-{
+.gs-btn:hover {
   color: white;
   text-transform: none;
   background: #ff4d00;
@@ -89,40 +96,32 @@
   }
 }
 
-
-
-.two 
-{
+.two {
   padding: 50px 10px;
 }
-.two h4 
-{
+.two h4 {
   color: #fd6e2f;
   font-weight: 700;
+  font-size: 2rem;
 }
-.two h2 
-{
+.two h2 {
   font-weight: 800;
+  font-size: 2rem;
 }
-.two p 
-{
+.two p {
+  font-size: 20px;
+}
+
+.two .gs-form {
+  border-radius: 15px;
+}
+.two .gs-form form {
+  padding: 1px 25px 20px 25px;
+}
+.two .gs-form form input {
   font-size: 18px;
 }
-
-
-
-
-
-.two .gs-form 
-{
-  border-radius: 15px ;
-}
-.two .gs-form form
-{
-  padding :25px;
-}
-.two h3 
-{
+.two h3 {
   background: #fd6e2f;
   color: white;
   padding: 10px;
@@ -130,207 +129,174 @@
   text-align: center;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  font-size: 2rem;
+}
+.two .gs-form label {
+  font-size: 20px;
 }
 
-.three 
-{
+.three {
   background-color: rgba(0, 0, 0, 0.014);
   padding: 50px 10px;
 }
-.three h1 
-{
-  font-weight: 700;
+.three h1 {
+  font-weight: 800;
+  font-size: 3rem;
 }
-.three .dest-box 
-{
+.three .dest-box {
   margin: 20px 0px;
   border-radius: 10px;
 }
+.three .dest-box h5 
+{
+  font-size: 1.8rem !important;
+}
+.three .dest-box p 
+{
+  font-size: 1.1rem !important;
+}
+@media (max-width: 992px) {
+  .three .dest-box {
+    margin: 10px 0px;
+  }
+  .three h1 {
+    font-size: 30px;
+  }
+  .three h5 {
+    font-size: 15px;
+  }
+}
 
-@media (max-width: 992px)
-{
-  .three .dest-box 
-{
-  margin: 10px 0px;
-}
-.three h1 
-{
-  font-size: 30px;
-}
-.three h5 
-{
-  font-size: 15px;
-}
-
-}
-
-.three .dest-box .gs-dest-box
-{
+.three .dest-box .gs-dest-box {
   width: 100%;
 }
-.three .dest-box .dest-box-content
-{
+.three .dest-box .dest-box-content {
   padding: 15px;
 }
-.three .dest-box .dest-box-content h5
-{
+.three .dest-box .dest-box-content h5 {
   font-size: 20px;
   font-weight: 700;
 }
-.three .dest-box .dest-box-content  .gs-dest-left 
-{
+.three .dest-box .dest-box-content .gs-dest-left {
   font-weight: 700;
 }
-.three .dest-box .dest-box-content  .gs-dest-right 
-{
+.three .dest-box .dest-box-content .gs-dest-right {
   float: right;
 }
 
-
-
-.four 
-{
+.four {
   padding: 50px 10px;
 }
-.four .box 
-{
+.four .box {
   padding: 30px 10px;
-  margin: 10px 0px 10px 0px
+  margin: 10px 0px 10px 0px;
 }
-.four .box p 
-{
+.four .box p {
   padding: 15px 30px 10px 30px;
 }
 
-.four .gs-img 
-{
+.four .gs-img {
   width: 75px;
   border-radius: 150px;
 }
-.four h1
-{
+.four h1 {
   font-weight: 700;
+  font-size: 3rem;
 }
 
-
-
-footer 
-{
+footer {
   background: #313041;
   color: white;
   padding: 50px 10px;
 }
 
-footer .gs-logo
-{
+footer .gs-logo {
   width: 100px;
 }
 
-footer .social-icon img
-{
+footer .social-icon img {
   width: 40px;
   margin: 2px;
 }
 
-footer h4 
-{
+footer h4 {
   color: white;
+  font-size: 1.6rem;
 }
-footer ul 
+footer .p-fot
 {
+  font-size: 1.2rem;
+}
+footer ul {
   padding-inline-start: 0px;
 }
-footer ul li 
-{
+footer ul li {
   list-style-type: none;
   padding: 5px;
 }
-footer ul li a
-{
+footer ul li a {
   color: white;
+  font-size: 1.1rem;
 }
-footer ul li a:hover
-{
+footer ul li a:hover {
   text-decoration: none;
   color: white;
 }
-footer .fot-gal 
-{
+footer .fot-gal {
   border-radius: 10px;
   /* padding: 10px; */
   margin-top: 10px;
-} 
-footer .gallery .col-4
-{
+}
+footer .gallery .col-4 {
   padding: 0;
 }
 
-footer .ico 
-{
+footer .ico {
   width: 20px;
 }
 
-.gs-pl-4 
-{
-  padding-left: 50px;;
+.gs-pl-4 {
+  padding-left: 50px;
 }
-@media (max-width: 600px)
-{
-  .gs-pl-4, footer .gallery .col-4
-  
-  {
-    padding-left: 20px;;
-  } 
-  .gs-pl-4
-  {
+@media (max-width: 600px) {
+  .gs-pl-4,
+  footer .gallery .col-4 {
+    padding-left: 20px;
+  }
+  .gs-pl-4 {
     padding-top: 20px;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.breadcumb 
-{
+.breadcumb {
   padding: 100px 10px;
-  background-color: rgba(0, 0, 0, 0.034);
+  background-color: rgba(61, 61, 61, 0.068);
 }
-.breadcumb h1 
-{
+.breadcumb h1 {
   font-weight: 900;
 }
-.breadcumb h5 
-{
+.breadcumb h5 {
   font-weight: 700;
 }
-.breadcumb img 
-{
+.breadcumb img {
   width: 15px;
 }
 
-
-.tour-details 
-{
+.tour-details {
   padding: 75px;
 }
-.gs-tour-img 
-{
-  width: 100%;;
+.gs-tour-img {
+  width: 100%;
 }
-.tour-details .gs-tour-box
-{
+.tour-details .gs-tour-box {
   padding: 10px;
+}
+
+.serv-box {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.gs-ser-img {
+  width: 100%;
 }
