@@ -329,6 +329,10 @@ footer .ico {
 {
   font-weight: 600;
 }
+.service-area h4 
+{
+  font-weight: 600;
+}
 
 .service-area p 
 {
@@ -378,4 +382,10 @@ footer .ico {
 .cta h5 
 {
   font-weight: 500;
+}
+
+
+.service-area ul li 
+{
+  font-size: 18px;
 }
