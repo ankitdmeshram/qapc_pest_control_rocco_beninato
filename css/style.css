@@ -301,7 +301,7 @@ footer .ico {
 }
 
 @media (max-width: 1200px) {
-  .service-area 
+.service-area 
   {
     padding: 50px 75px;
   }
@@ -310,7 +310,7 @@ footer .ico {
 }
 
 @media (max-width: 600px) {
-  .service-area 
+.service-area 
   {
     padding: 50px 25px;
   }
@@ -332,8 +332,14 @@ footer .ico {
 .service-area h4 
 {
   font-weight: 600;
-}
+  font-size: 30px;
 
+}
+.service-area h5 
+{
+  font-weight: 600;
+  font-size: 22px;
+}
 .service-area p 
 {
   font-size: 1.2rem;
