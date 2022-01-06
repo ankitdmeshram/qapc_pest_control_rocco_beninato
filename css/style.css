@@ -384,3 +384,16 @@ footer .ico {
 {
   font-size: 20px;;
 }
+
+
+.form-box 
+{
+  top: 125px;
+}
+
+
+.dest-box .dest-box-content h5 a 
+{
+  text-decoration: none;
+  color: black;
+}

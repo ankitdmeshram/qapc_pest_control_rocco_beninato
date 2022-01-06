@@ -12,6 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -19,17 +20,18 @@
         <div class="gs-top-nav container-fluid">
             <div class="container">
                 <p>
-                    <a href="mailto:contact@brokod.com">
-                        <img src="icons/email.png" class="img-fluid" style="width: 17px" />
-                        <span class="gs-hide"> contact@brokod.com</span></a>
-                    <a href="tel:+919372096952">
-                        <img src="icons/phone-call.png" class="img-fluid" style="width: 17px" />
-                        <span class="gs-hide">+91 93720 96952</span></a>
+                    <a href="mailto:contact@qapc.com">
+                        <img src="icon/email.png" class="img-fluid" style="width: 17px" />
+                        <span class="gs-hide"> contact@qapc.com</span></a>
+                    <a href="tel:+14168310386">
+                        <img src="icon/phone-call.png" class="img-fluid" style="margin-left: 20px ;width: 17px" />
+                        <span class="gs-hide">+1 (416) 831-0386</span></a>
                 </p>
             </div>
         </div>
-        <div class="gs-nav">
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="gs-nav "  id="navbar_top">
+            <nav class="navbar navbar-expand-lg navbar-light shadow-lg" style="background-color: white;" >
+
                 <div class="container">
                     <a class="navbar-brand" href="/" style="padding-bottom: 0px"><img src="img/logo.png"
                             style="height: 80px" alt="logo" /></a>
@@ -43,8 +45,18 @@
                             <li class="nav-item active">
                                 <a class="nav-link" href="/">Home </a>
                             </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about-us.html">About Us </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Services </a>
+                            </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact Us</a>
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link gs-btn" href="/"  data-toggle="modal" data-target="#exampleModal"
+                                    style="color: white !important; border-radius: 5px; padding: 5px 20px ">Hire Us </a>
                             </li>
                         </ul>
                     </div>
@@ -124,9 +136,8 @@
 
                 
                 <div class="col-lg-4 two">
-                    
-                    
-                    <div class="gs-form shadow">
+                    <div class="sticky-top form-box" >   
+                    <div class="gs-form shadow ">
                         <h3>Get a Quote</h3>
 
                         <form action="">
@@ -173,27 +184,17 @@
                             </div>
                         </form>
                     </div>
+                    <p style="text-align: center; padding-top: 25px;" ><img src="img/money-back.webp" class="img-fluid text-center" ></p>
 
-                    <p style="text-align: center; padding-top: 25px;"><img src="img/money-back.webp" class="img-fluid text-center" ></p>
+                </div>
 
-                    <div class="side-link shadow rounded">
-                        <ul>
-                            <li><b><a href="">Important Links</a></b></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                        </ul>
-                    </div>
+
+                  
 
 
 
                 </div>
+                
             </div>
 
         </div>
@@ -260,10 +261,10 @@
                     <h4>
                         Contacts
                     </h4>
-                    <p class="pt-3"> <img src="icons/phone-call.png" class="img-fluid ico" alt="phone">&nbsp Kalyan,
+                    <p class="pt-3"> <img src="icon/phone-call.png" class="img-fluid ico" alt="phone">&nbsp Kalyan,
                         Thane, Mumbai, Maharashtra, India, Asia, World</p>
-                    <p> <img src="icons/phone-call.png" class="img-fluid ico" alt="phone">&nbsp +91 93720 96952</p>
-                    <p> <img src="icons/email.png" class="img-fluid ico" alt="phone"> &nbsp info@example.com</p>
+                    <p> <img src="icon/phone-call.png" class="img-fluid ico" alt="phone">&nbsp +91 93720 96952</p>
+                    <p> <img src="icon/email.png" class="img-fluid ico" alt="phone"> &nbsp info@example.com</p>
                 </div>
 
 
