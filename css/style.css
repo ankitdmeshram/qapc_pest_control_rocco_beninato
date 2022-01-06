@@ -97,7 +97,7 @@
 }
 
 .two {
-  padding: 50px 10px;
+  padding: 50px 10px 80px 10px;
 }
 .two h4 {
   color: #fd6e2f;
@@ -113,7 +113,7 @@
 }
 
 .two .gs-form {
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .two .gs-form form {
   padding: 1px 25px 20px 25px;
@@ -147,12 +147,10 @@
   margin: 20px 0px;
   border-radius: 10px;
 }
-.three .dest-box h5 
-{
+.three .dest-box h5 {
   font-size: 1.8rem !important;
 }
-.three .dest-box p 
-{
+.three .dest-box p {
   font-size: 1.1rem !important;
 }
 @media (max-width: 992px) {
@@ -187,9 +185,18 @@
 .four {
   padding: 50px 10px;
 }
+.four .col-lg-4 
+{
+  align-self: center;
+}
 .four .box {
-  padding: 30px 10px;
-  margin: 10px 0px 10px 0px;
+   padding: 30px 10px;
+  /* padding: 30px 10px;
+  margin: 10px 0px 10px 0px; */
+  display: table-cell;
+  align-items: center;
+  /* height: 400px; */
+  width: 100%;
 }
 .four .box p {
   padding: 15px 30px 10px 30px;
@@ -223,8 +230,7 @@ footer h4 {
   color: white;
   font-size: 1.6rem;
 }
-footer .p-fot
-{
+footer .p-fot {
   font-size: 1.2rem;
 }
 footer ul {
@@ -268,16 +274,11 @@ footer .ico {
   }
 }
 
-
-
-
-
 .breadcumb {
   padding: 150px 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .breadcumb h1 {
   font-weight: 900;
@@ -293,108 +294,93 @@ footer .ico {
   width: 15px;
 }
 
-
-
-.service-area 
-{
+.service-area {
   padding: 50px 125px;
 }
 
 @media (max-width: 1200px) {
-.service-area 
-  {
+  .service-area {
     padding: 50px 75px;
   }
-
-    
 }
 
 @media (max-width: 600px) {
-.service-area 
-  {
+  .service-area {
     padding: 50px 25px;
   }
-  .breadcumb
-  {
-    padding: 75px 10px
+  .breadcumb {
+    padding: 75px 10px;
   }
   .breadcumb h1 {
     font-weight: 900;
     font-size: 2.5rem;
     color: white;
   }
-    
 }
 
-
-
-.service-area h1 
-{
+.service-area h1 {
   font-weight: 600;
 }
-.service-area h4 
-{
+.service-area h4 {
   font-weight: 600;
   font-size: 30px;
-
 }
-.service-area h5 
-{
+.service-area h5 {
   font-weight: 600;
   font-size: 22px;
 }
-.service-area p 
-{
+.service-area p {
   font-size: 1.2rem;
 }
 
-
-.side-link
-{
+.side-link {
   margin-top: 40px;
   padding: 10px;
 }
-.side-link ul 
-{
+.side-link ul {
   padding-inline-start: 0px;
   padding: 1px 10px;
 }
-.side-link ul li 
-{
+.side-link ul li {
   padding: 8px 5px;
   list-style: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.048);
 }
-.side-link ul li a 
-{
+.side-link ul li a {
   text-decoration: none;
   font-size: 20px;
   color: black;
 }
 
-
-
-
-
-.cta 
-{
+.cta {
   padding: 70px 10px;
   text-align: center;
   background-color: rgba(88, 59, 0, 0.055);
 }
-.cta h1 
-{
+.cta h1 {
   /* font-size: 2.5rem; */
   font-weight: 700;
-
 }
-.cta h5 
-{
+.cta h5 {
   font-weight: 500;
 }
 
-
-.service-area ul li 
-{
+.service-area ul li {
   font-size: 18px;
+}
+
+
+.main-contact 
+{
+  padding: 75px 10px;
+}
+
+.main-contact img 
+{
+  width: 20px;
+}
+
+.main-contact p 
+{
+  font-size: 20px;;
 }
